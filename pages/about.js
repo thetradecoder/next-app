@@ -1,9 +1,11 @@
 import Container from 'react-bootstrap/Container';
 export default function About(){
     return(
-        <div className={Container}>
+        <Container fluid>        
+        <div>            
             <h1>Pages created with next js</h1>
-            <p>This is working fine!</p>
+            <p>This is working fine!</p>            
         </div>
+        </Container>
     );
 }

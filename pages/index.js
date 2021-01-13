@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  return (
+  return (  
     <div className={styles.container}>
       <Head>
         <title>Next App</title>
@@ -60,6 +60,6 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
-    </div>
+    </div>  
   )
 }
